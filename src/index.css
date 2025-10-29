@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+.map-container {
+  height: 500px;
+  width: 100%;
+}
+
+.parking-marker {
+  background-color: #3B82F6;
+  color: white;
+  border-radius: 50%;
+  padding: 8px 12px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.parking-marker.free {
+  background-color: #10B981;
+}
+
+.parking-marker.occupied {
+  background-color: #EF4444;
+}
